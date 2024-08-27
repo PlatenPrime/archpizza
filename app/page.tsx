@@ -1,4 +1,4 @@
-import { Container, Title, Categories, SortPopup, TopBar } from "@/components/shared";
+import { Container, Title, Categories, SortPopup, TopBar, Filters } from "@/components/shared";
 import { Button } from "@/components/ui";
 import Image from "next/image";
 
@@ -17,14 +17,14 @@ export default function Home() {
       <TopBar />
 
       <Container
-        className="pb-14"
+        className="mt-10 pb-14"
       >
         <div
           className="flex gap-[60px]"
         >
           {/* Фильтрация */}
           <div className="w-[250px">
-            {/* <Filters /> */}
+            <Filters />
           </div>
 
 
