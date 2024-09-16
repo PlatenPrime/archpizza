@@ -1,6 +1,5 @@
 "use client"
 
-import { Header } from "@/components/shared/header";
 import { Button } from "@/components/ui/button";
 
 
@@ -14,8 +13,7 @@ export default function Home() {
   return (
     <div className="">
 
-      <Header></Header>
-      Home
+
       <Button variant="outline" >Click</Button>
 
 

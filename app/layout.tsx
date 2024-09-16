@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { Tenor_Sans} from 'next/font/google';
+import { Tenor_Sans } from 'next/font/google';
+import { Header } from "@/components/shared/header";
 
 const tenor = Tenor_Sans({
   subsets: ['cyrillic'],
   variable: '--font-tenor',
-  weight: ['400', ],
+  weight: ['400',],
 });
 
 export const metadata: Metadata = {
@@ -21,12 +22,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-      className={tenor.className}
+        className={tenor.className}
       >
         <main className="container mx-auto  min-h-screen">
+          <Header />
           {children}
         </main>
-        
+
       </body>
     </html>
   );
