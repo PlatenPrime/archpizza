@@ -1,10 +1,5 @@
 "use client"
 
-import { Button } from "@/components/ui/button";
-
-
-
-
 
 
 
@@ -14,10 +9,7 @@ export default function Home() {
     <div className="">
 
 
-      <Button variant="outline" >Click</Button>
-
-
-
+    
 
       Загальні положення
       Збиральник замовлень на складі повітряних кульок і товарів для свята (далі — Збиральник) призначається на посаду і звільняється з посади наказом керівника підприємства.
